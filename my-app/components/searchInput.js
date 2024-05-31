@@ -1,11 +1,12 @@
 import React from 'react';
-import {TextInput,Image,Text,View,ScrollView,FlatList,StyleSheet} from 'react-native';
+import {Button,TextInput,Image,Text,View,ScrollView,FlatList,StyleSheet} from 'react-native';
 
 export function SearchBar() {
     return(
-       
-            <TextInput style={styles.searchBar} value={String} placeholder='search...'/>
-     
+       <View style={styles.searchBar}>
+            <TextInput  value={String} placeholder='search...'/>
+            <Button style={{alignItem:"right", height:20, weight:20}} title="Learn More" color="#841584" accessibilityLabel="Learn more about this purple button"
+/></View>
 
     )
 };
