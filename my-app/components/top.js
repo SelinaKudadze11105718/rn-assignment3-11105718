@@ -4,7 +4,13 @@ import {InlineImage,Image,Text,View,ScrollView,FlatList,StyleSheet} from 'react-
 export function Top(){
     return(
         <View style={styles.task}>
-            <Text style={styles.textTask}>Hello,Devs<Image style={{height:30,width:30, alignSelf: 'flex-end'}}source={require("../assets/favicon.png")}/></Text>
+           
+            <View style={{flexDirection:'row'}}>
+                <Text style={styles.textTask}>Hello,Devs</Text>
+                <Image style={{height:30,width:30, alignSelf: 'flex-end',marginLeft:200,marginTop:10}}source={require("../assets/hello_dev-removebg-preview.png")}/>
+            </View>
+            <Text style={{marginTop:0,textAlign:'left',fontFamily:'Lato'}}>14 Tasks today</Text> 
+            
             
         </View>
     )
@@ -13,21 +19,24 @@ export function Top(){
 
 const styles= StyleSheet.create({
     task:{
+        
         width:354,
-        height:52,
+        height:57,
         marginTop:52,
         marginLeft:10,
-        backgroundColor: "yellow",
+        backgroundColor: "white",
         // textAlign: "justify",
         alignItems: "stretch",
         borderRadius:10,
+        fontFamily:'Lato',
         
     },
     textTask:{
-        fontSize:22,
+        fontSize:24,
         fontWeight: "bold",
         // alignSelf:"justify",
         alignItems: "stretch",
+        marginTop:10,
 
     },
     

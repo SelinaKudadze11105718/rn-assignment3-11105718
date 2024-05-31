@@ -1,12 +1,18 @@
 import React from 'react';
-import {Button,TextInput,Image,Text,View,ScrollView,FlatList,StyleSheet} from 'react-native';
+import {Button,TextInput,Image,Text,View,ScrollView,FlatList,StyleSheet,TouchableOpacity} from 'react-native';
 
 export function SearchBar() {
     return(
        <View style={styles.searchBar}>
-            <TextInput  value={String} placeholder='search...'/>
-            <Button style={{alignItem:"right", height:20, weight:20}} title="Learn More" color="#841584" accessibilityLabel="Learn more about this purple button"
-/></View>
+        <Image style={{width:30,height:30,marginTop:10}}source={require('../assets/search-removebg-preview.png')} />
+        <TextInput  value={String} placeholder='search...'/>
+        <TouchableOpacity style={styles.imageButton} activeOpacity={0.5}>
+            <Image style={{ width:30,height:30,marginLeft:230}} source={require("../assets/nav-removebg-preview.png") }/>
+            
+        </TouchableOpacity>
+            
+            
+</View>
 
     )
 };
@@ -21,6 +27,15 @@ const styles = StyleSheet.create({
         marginTop:20,
         backgroundColor:"white",
         borderRadius:10,
+        alignItems: "stretch",
+        flexDirection: 'row',
+
+
+    },
+
+    imageButton:{
+        justifyContent: "center",
+      
 
     },
 })
