@@ -15,5 +15,8 @@ This custom component contains a function that returns a list of categories. The
 4. OngoingTask.js
 This custom component contains a function that returns a list of ongoing tasks.These categories were also stored in an array with object literals representing each task.
 
-![](my-app/assets/IMG_7763.PNG)
+
 ![](my-app/assets/IMG_7762.PNG)
+
+![](my-app/assets/IMG_7763.PNG)
+
