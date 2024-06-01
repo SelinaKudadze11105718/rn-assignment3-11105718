@@ -12,9 +12,9 @@ export default function App() {
 
     <Top/>
     <SearchBar/>
-    <Text style={{marginTop:15, fontSize:20, fontWeight:'bold',marginLeft:10}}>Categories:</Text>
+    <Text style={{marginTop:15, fontSize:20, fontWeight:'bold',marginLeft:10,marginBottom:10,marginTop:35}}>Categories</Text>
     <Category/>
-    <Text style={{marginTop:15, fontSize:20, fontWeight:'bold',marginLeft:10}}>Ongoing Tasks:</Text>
+    <Text style={{marginTop:15, fontSize:20, fontWeight:'bold',marginLeft:10}}>Ongoing Task</Text>
     <Task/>
    
     
@@ -32,6 +32,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: 'white',
+    
     // alignItems: 'center',
     // justifyContent: 'center',
   },

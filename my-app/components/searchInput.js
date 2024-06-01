@@ -4,10 +4,10 @@ import {Button,TextInput,Image,Text,View,ScrollView,FlatList,StyleSheet,Touchabl
 export function SearchBar() {
     return(
        <View style={styles.searchBar}>
-        <Image style={{width:30,height:30,marginTop:10}}source={require('../assets/search-removebg-preview.png')} />
-        <TextInput  value={String} placeholder='search...'/>
+        <Image style={{width:20,height:20,marginTop:15}}source={require('../assets/Group 5.png')} />
+        <TextInput  keyboardType='default' style={{fontWeight:'bold',color:'black'}} value={String} placeholder=' search'  placeholderTextColor={'black'}/>
         <TouchableOpacity style={styles.imageButton} activeOpacity={0.5}>
-            <Image style={{ width:30,height:30,marginLeft:230}} source={require("../assets/nav-removebg-preview.png") }/>
+            <Image style={{ width:30,height:30,marginLeft:250}} source={require("../assets/nav-removebg-preview.png") }/>
             
         </TouchableOpacity>
             
@@ -23,9 +23,9 @@ const styles = StyleSheet.create({
         border:1,
         width:353,
         height:49,
-        marginLeft:10,
-        marginTop:20,
-        backgroundColor:"rgb(235,235,235)",
+        marginLeft:12,
+        marginTop:30,
+        backgroundColor:"#FBF9F7",
         borderRadius:10,
         alignItems: "stretch",
         flexDirection: 'row',
