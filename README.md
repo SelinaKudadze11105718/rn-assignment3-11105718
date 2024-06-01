@@ -4,8 +4,8 @@
 
 ### COMPONENTS DESCRIPTION
 1. top.js
-  *This custom component contained the top part of the project. 
-  *It included a JavaScript function which returned a text which reads "Hello,Devs" and a profile image.
+            *This custom component contained the top part of the project. 
+            *It included a JavaScript function which returned a text which reads "Hello,Devs" and a profile image.
 
 2. searchInput.js
   *This custom component contains a function that returns a textInput, which allows users to give input.
