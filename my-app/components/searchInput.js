@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
         height:49,
         marginLeft:10,
         marginTop:20,
-        backgroundColor:"white",
+        backgroundColor:"rgb(235,235,235)",
         borderRadius:10,
         alignItems: "stretch",
         flexDirection: 'row',

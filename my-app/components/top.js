@@ -24,7 +24,7 @@ const styles= StyleSheet.create({
         height:57,
         marginTop:52,
         marginLeft:10,
-        backgroundColor: "white",
+        backgroundColor: "rgb(235,235,235)",
         // textAlign: "justify",
         alignItems: "stretch",
         borderRadius:10,

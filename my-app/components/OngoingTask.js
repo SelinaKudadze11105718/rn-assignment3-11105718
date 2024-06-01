@@ -36,7 +36,7 @@ task:{
     height:128,
     marginTop:10,
     marginLeft:10,
-    backgroundColor:"orange",
+    backgroundColor: 'rgb(235,235,235)',
     
 },
 
