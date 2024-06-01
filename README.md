@@ -20,6 +20,5 @@ Each category was represented as an object literal with id,category title and an
 This custom component contains a function that returns a list of ongoing tasks.
 These categories were also stored in an array with object literals representing each task.
 
-![](/assets/IMG_7762.PNG)
-![](/assets/IMG_7763.PNG)
-![](/assets/IMG_7764.PNG)
+![](my-app/assets/IMG_7763.PNG)
+![](my-app/assets/IMG_7762.PNG)
