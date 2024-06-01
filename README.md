@@ -1,14 +1,14 @@
 # rn-assignment3-11105718
 # ID:11105718
-# Assignment 2
+## Assignment 2
 
-## COMPONENTS DESCRIPTION
+### COMPONENTS DESCRIPTION
 1. top.js
 This custom component contained the top part of the project. 
-It included a JavaScript function which returned the text and image of the project.
+It included a JavaScript function which returned a text which reads "Hello,Devs" and a profile image.
 
 2. searchInput.js
-This custom component contains a function that returns a textInput component, which allows users to type.
+This custom component contains a function that returns a textInput, which allows users to give input.
 It also displays a button(pressable in the form of an image)
 
 3. categories.js
